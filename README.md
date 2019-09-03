@@ -1,0 +1,1 @@
+# ssr-auto-install
