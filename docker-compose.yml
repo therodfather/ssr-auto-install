@@ -7,7 +7,6 @@ services:
     container_name: ssr
     ports:
       - 4041:4041
-      - 4041:4041
     networks:
       - ssr
     volumes:
