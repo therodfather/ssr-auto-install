@@ -8,7 +8,7 @@ pipeline {
         
     // Make the output directory.
     echo "building..."
-    sh "docker-compose up -d"
+    sh "docker-compose down && docker-compose up -d"
     echo "done..."
       }
     }
