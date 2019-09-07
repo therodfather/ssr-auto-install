@@ -6,8 +6,8 @@ services:
     restart: always
     container_name: ssr
     ports:
-      - 4040:4040
-      - 4040:4040
+      - 4041:4041
+      - 4041:4041
     networks:
       - ssr
     volumes:
