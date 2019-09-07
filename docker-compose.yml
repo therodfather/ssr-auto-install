@@ -11,7 +11,7 @@ services:
     networks:
       - ssr
     volumes:
-      - "./etc/:/ssr/:ro"
+      - "./etc/:/etc/shadowsocks-r:ro"
     restart: always
     logging:
       driver: "json-file"
