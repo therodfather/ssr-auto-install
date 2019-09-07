@@ -5,8 +5,7 @@ services:
     image: winterssy/shadowsocksr:latest
     restart: always
     container_name: ssr
-    ports:
-      - 4041:4041
+    expose: 4041
     networks:
       - ssr
     volumes:
