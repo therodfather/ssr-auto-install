@@ -2,7 +2,7 @@ version: "3.6"
 
 services:
   ssr:
-    image: teddysun/shadowsocks-r:alpine
+    image: teddysun/shadowsocks-r:latest
     restart: always
     container_name: ssr
     ports: 
@@ -11,7 +11,7 @@ services:
     networks:
       - ssr
     volumes:
-      - "./etc/config.json:/etc/shadowsocks-r/config.json:rw"
+      - "./etc/:/etc/shadowsocks-r/config.json:rw"
     restart: always
     logging:
       driver: "json-file"
