@@ -2,7 +2,7 @@ version: "3.6"
 
 services:
   ssr:
-    image: winterssy/shadowsocksr:latest
+    image: teddysun/shadowsocks-r:alpine
     restart: always
     container_name: ssr
     ports: 
