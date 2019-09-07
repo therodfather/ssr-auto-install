@@ -2,7 +2,7 @@ pipeline {
     agent any
     /* insert Declarative Pipeline here */
 node {
-    stage "build and start"
+    stages "build and start"
     steps {
     // Make the output directory.
     echo "building..."
