@@ -7,7 +7,7 @@
     "local_port": 1080,
     "password": "djtdjtim",
     "timeout": 300,
-    "method": "aes_256_cfb",
+    "method": "aes-256-cfb",
     "protocol": "auth_aes128_sha1",
     "protocol_param": "",
     "obfs": "http_simple_compatible",
