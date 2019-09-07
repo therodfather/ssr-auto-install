@@ -12,7 +12,7 @@ services:
       - ssr
     volumes:
       - "./etc/:/etc/shadowsocks-r/"
-    restart: always
+    #restart: always
     logging:
       driver: "json-file"
       options:
