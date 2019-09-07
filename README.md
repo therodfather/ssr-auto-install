@@ -2,7 +2,7 @@
 
 Just one command:
 
-``` git clone https://github.com/detorr/SSR-Docker/ && cd SSR-Docker && chmod +x new_install.sh && ./new_install.sh ```
+``` git clone https://github.com/detorr/ssr-auto-install/ && cd ssr-auto-install && chmod +x new_install.sh && ./new_install.sh ```
 
 ##  Stop server
 
