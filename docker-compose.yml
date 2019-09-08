@@ -8,11 +8,18 @@ services:
     ports: 
       - 4041:4041/tcp
       - 4041:4041/udp
+      - 4051:4051/tcp
+      - 4051:4051/udp
+      - 4052:4052/tcp
+      - 4052:4052/udp
+      - 4053:4053/tcp
+      - 4053:4053/udp
+      
     networks:
       - ssr
     volumes:
       - "./etc/:/etc/shadowsocks-r"
-    #restart: always
+    restart: always
     logging:
       driver: "json-file"
       options:
