@@ -2,10 +2,14 @@
 {
     "server": "0.0.0.0",
     "server_ipv6": "::",
-    "server_port": 4041,
+    "port_password": {
+        "4041": "djtdjtim",
+        "4051": "foobar1",
+        "4052": "foobar2",
+        "4053": "foobar3"
+    },
     "local_address": "127.0.0.1",
     "local_port": 1080,
-    "password": "djtdjtim",
     "timeout": 300,
     "method": "aes-256-cfb",
     "protocol": "auth_aes128_sha1",
