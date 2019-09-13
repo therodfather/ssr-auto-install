@@ -2,11 +2,11 @@
 # script for ubuntu 19 clean server for ssr and random password
 
 # update and install dependencies upgrade machine and clean
-sudo apt-get update;
-sudo apt-get purge docker docker-compose docker.io -y;
-sudo apt-get install git docker.io docker docker-compose -y;
-sudo apt-get upgrade -y && apt-get dist-upgrade -y; 
-sudo apt-get autoremove -y;
+#sudo apt-get update;
+#sudo apt-get purge docker docker-compose docker.io -y;
+#sudo apt-get install git docker.io docker docker-compose -y;
+#sudo apt-get upgrade -y && apt-get dist-upgrade -y; 
+#sudo apt-get autoremove -y;
 
 #randomize password and replace in config file and wait some time to look at the config change
 STR = date | md5sum;
