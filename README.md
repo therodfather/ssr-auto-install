@@ -6,7 +6,9 @@ Just one command:
 
 ``` git clone https://github.com/detorr/ssr-auto-install/ && cd ssr-auto-install && chmod +x new_install.sh && ./new_install.sh ```
 
-# Controlling the docker container from (outside the container) the host docker engine
+# Controlling the docker container 
+
+### from (outside the container) the host docker engine
 
 ##  Stop server
 
