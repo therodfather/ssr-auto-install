@@ -19,5 +19,8 @@ wait $process_id;
 # start up ssr from docker-compose.yml config file and run in background
 docker-compose up -d;
 
+docker logs ssr;
+
 echo "Dockies and Sockies install completed!!! ";
+
 echo "the password should be: $STR ";
