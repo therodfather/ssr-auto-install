@@ -9,8 +9,8 @@ sudo apt-get upgrade -y && apt-get dist-upgrade -y;
 sudo apt-get autoremove -y;
 
 #randomize password and replace in config file and wait some time to look at the config change
-#STR = date | md5sum;
-#sed 's/# "password": "p@ssw0rd",/"password": "$STR"/' etc/config.json;
+STR = date | md5sum;
+sed 's/# "password": "p@ssw0rd",/"password": "$STR"/' etc/config.json;
 
 cat etc/config.json;
 process_id=$!;
