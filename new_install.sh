@@ -20,3 +20,4 @@ wait $process_id;
 docker-compose up -d;
 
 echo "Dockies and Sockies install completed!!! ";
+echo "the password should is $STR "
