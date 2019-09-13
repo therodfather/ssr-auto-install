@@ -1,4 +1,6 @@
-# SSR docker-compose file directions or prepare installation of docker and new machine with ssr running in one script
+# SSR docker-compose file directions
+
+### or prepare installation of docker and new machine with ssr running in one script
 
 Just one command:
 
