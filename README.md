@@ -7,14 +7,14 @@ Just one command:
 ##  Stop server
 
 ``` 
-    cd SSR-Docker
+    cd ssr-auto-install
     docker-compose down 
 ```
 
 ## Start Server
 
  ``` 
-    cd SSR-Docker
+    cd ssr-auto-install
     docker-compose up -d 
  ```
  
@@ -29,10 +29,10 @@ Just one command:
  ##  Uninstall and delete etc...
 
 ``` 
-    cd SSR-Docker
+    cd ssr-auto-install
     docker-compose down 
     docker container prune 
     docker image prune
-    cd .. && rm -r SSR-Docker
+    cd .. && rm -r ssr-auto-install
     
 ```
