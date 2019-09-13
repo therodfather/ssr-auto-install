@@ -2,8 +2,7 @@
 {
     "server": "0.0.0.0",
     "server_ipv6": "::",
-    "port_password": {
-        "4041": "djtdjtim",
+    "port_password": { "4041": "p@ssw0rd",
         "4051": "foobar1",
         "4052": "foobar2",
         "4053": "foobar3"
