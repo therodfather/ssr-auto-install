@@ -21,7 +21,7 @@ docker-compose up -d;
 
 docker logs ssr;
 
-echo "New machine ip" && curl ifconfig.me;
+echo "New machine ip: " && curl ifconfig.me;
 echo "Dockies and Sockies install completed!!! ";
 
 echo "the password should be:  " + $STR ;
